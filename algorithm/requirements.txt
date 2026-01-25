@@ -1,0 +1,16 @@
+# 知识点切分算法依赖
+numpy>=1.21.0
+jieba>=0.42.1
+networkx>=2.8.0
+
+# 可选：使用sentence-transformers获得更好的语义相似度（推荐安装）
+# 安装命令：pip install sentence-transformers torch
+# sentence-transformers>=2.2.0
+# torch>=1.12.0
+
+# 注意：如果不安装sentence-transformers，系统会自动使用简单模式（基于关键词重叠）
+# 安装后，在初始化时设置 use_advanced_similarity=True 即可使用
+
+# 测试依赖
+pytest>=7.0.0
+pytest-cov>=3.0.0
